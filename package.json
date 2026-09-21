@@ -1,0 +1,26 @@
+{
+  "name": "link-audit",
+  "version": "1.0.0",
+  "description": "Crawl a domain to audit links",
+  "main": "link-audit.js",
+  "scripts": {
+    "postinstall": "scripts/env.sh",
+    "link-audit": "node link-audit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcomio/link-audit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malcomio/link-audit/issues"
+  },
+  "homepage": "https://github.com/malcomio/link-audit#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^18.0.1",
+    "exceljs": "^4.4.0"
+  }
+}
